@@ -32,6 +32,7 @@ syntax match paketTmplKeyword /^licenseUrl/
 
 syntax match paketTmplVersion /\d\(\.\d\)\+/
 syntax match paketTmplVersion /CURRENTVERSION/
+syntax match paketTmplVersion /LOCKEDVERSION/
 
 syntax match paketTmplValue /file$/
 syntax match paketTmplValue /project$/
