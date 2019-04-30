@@ -34,6 +34,7 @@ syntax match paketDepsOption /\<net461\>/
 syntax match paketDepsOption /\<net462\>/
 syntax match paketDepsOption /\<net471\>/
 syntax match paketDepsOption /\<net472\>/
+syntax match paketDepsOption /\<monoandroid44\>/
 syntax match paketDepsOption /\<auto-detect\>/
 
 " Source: https://gist.github.com/tobym/584909
