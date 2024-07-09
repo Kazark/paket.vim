@@ -14,6 +14,8 @@ syntax match paketDepsKeyword /^\s*nuget/
 syntax match paketDepsKeyword /^\s*http/
 syntax match paketDepsKeyword /^\s*github/
 syntax match paketDepsKeyword /^\s*group/
+syntax match paketDepsComment /^#.*/
+syntax match paketDepsComment /^\/\/.*/
 
 syntax match paketDepsSymbol />=/
 syntax match paketDepsSymbol /\~>/
@@ -47,5 +49,6 @@ highlight link paketDepsVersion Float
 highlight link paketDepsOption Boolean
 highlight link paketDepsUrl Identifier
 highlight link paketDepsStr String
+highlight link paketDepsComment Comment
 
 let b:current_syntax = "paketdeps"
